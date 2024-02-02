@@ -6,7 +6,7 @@ on:
       MANIFEST_BRANCH:
         description: 'TWRP Minimal-Manifest Branch'
         required: true
-        default: ''
+        default: 'https://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp.git'
         type: choice
         options:
         - twrp-12.1
